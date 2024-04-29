@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phone Icon Click</title>
+<style>
+    .phone-icon {
+        width: 100px;
+        height: 100px;
+        background-color: #007bff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="phone-icon" onclick="proceedToFlask()">📞</div>
+
+<script>
+    function proceedToFlask() {
+        window.location.href = "/assistant"; // Replace "/flask_route" with your actual Flask route
+    }
+</script>
+
+</body>
+</html>
